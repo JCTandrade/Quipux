@@ -47,7 +47,7 @@ cd prueba-backend
 La API utiliza autenticación básica (Basic Auth) con las siguientes credenciales:
 
 - **Usuario:** `admin`
-- **Contraseña:** ``
+- **Contraseña:** `admin123`
 
 ## Documentación de la API
 
