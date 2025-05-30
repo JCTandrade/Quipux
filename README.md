@@ -40,6 +40,7 @@ cd prueba-backend
 ./mvnw spring-boot:run
 ```
 
+
 ## Estructura del Proyecto
 
 ## Autenticación
