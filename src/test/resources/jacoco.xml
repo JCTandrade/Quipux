@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//JaCoCo//DTD MODULE 1.1//EN" "module.dtd">
+<module name="JaCoCo Coverage">
+    <group name="Coverage">
+        <class name="com.prueba_backend.controllers.*"/>
+        <class name="com.prueba_backend.services.*"/>
+        <class name="com.prueba_backend.domain.*"/>
+        <class name="com.prueba_backend.repositories.*"/>
+    </group>
+    <group name="No Coverage">
+        <class name="com.prueba_backend.PruebaBackendApplication"/>
+    </group>
+</module> 
