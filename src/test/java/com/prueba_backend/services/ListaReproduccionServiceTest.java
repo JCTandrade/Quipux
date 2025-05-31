@@ -46,7 +46,6 @@ class ListaReproduccionServiceTest {
         cancionDTO.setAlbum("Test Album");
         cancionDTO.setAnno("2024");
         cancionDTO.setGenero("Test Genre");
-        cancionDTO.setDuracion(180);
 
         listaReproduccionDTO = new ListaReproduccionDTO();
         listaReproduccionDTO.setNombre("Test Playlist");
@@ -59,7 +58,6 @@ class ListaReproduccionServiceTest {
         cancion.setAlbum("Test Album");
         cancion.setAnno("2024");
         cancion.setGenero("Test Genre");
-        cancion.setDuracion(180);
 
         listaReproduccion = new ListaReproduccion();
         listaReproduccion.setId(1L);

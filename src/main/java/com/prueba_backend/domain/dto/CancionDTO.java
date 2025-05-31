@@ -16,5 +16,4 @@ public class CancionDTO {
     private String album;
     private String anno;
     private String genero;
-    private Integer duracion;
 } 

@@ -89,7 +89,6 @@ public class ListaReproduccionServiceImpl implements IListaReproduccionService {
         dto.setAlbum(cancion.getAlbum());
         dto.setAnno(cancion.getAnno());
         dto.setGenero(cancion.getGenero());
-        dto.setDuracion(cancion.getDuracion());
         return dto;
     }
 
@@ -100,7 +99,6 @@ public class ListaReproduccionServiceImpl implements IListaReproduccionService {
         cancion.setAlbum(dto.getAlbum());
         cancion.setAnno(dto.getAnno());
         cancion.setGenero(dto.getGenero());
-        cancion.setDuracion(dto.getDuracion());
         return cancion;
     }
 } 

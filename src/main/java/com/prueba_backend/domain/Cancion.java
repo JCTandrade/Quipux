@@ -26,7 +26,6 @@ public class Cancion {
     private String album;
     private String anno;
     private String genero;
-    private Integer duracion;
     
     @ManyToOne
     @JoinColumn(name = "lista_reproduccion_id")
